@@ -1,4 +1,5 @@
-﻿class INetChannel
+﻿
+class INetChannel
 {
 private:
 	__forceinline float GetLatency(int flow)

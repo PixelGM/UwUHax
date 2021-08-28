@@ -1,4 +1,6 @@
 ﻿#pragma once
+#include <Windows.h>
+#include <iostream>
 
 typedef unsigned long HFont;
 

@@ -75,6 +75,7 @@ void cMenu::InitMenuElements()
 		msAimbot.AddElement(ONOFF, -3, L" AIM ENABLE", &gCvars.ENABLEAIM);
 		msAimbot.AddElement(ONOFF, -3, L" AIM ON FIRE", &gCvars.AIMONFIRE);
 		msAimbot.AddElement(ONOFF, -3, L" SILENT AIM", &gCvars.SILENTAIM);
+		msAimbot.AddElement(ONOFF, -3, L" IGNORE WITCH", &gCvars.IGNOREBITCH);
 
 		msAimbot.RestartSection();
 
@@ -103,7 +104,7 @@ void cMenu::InitMenuElements()
 		msEsp.AddElement(ONOFF, 0, L"ESP NAME", &gCvars.ESPNAME);
 		msEsp.AddElement(ONOFF, 0, L"ESP BOX", &gCvars.ESPBOX);
 		msEsp.AddElement(ONOFF, 0, L"ESP HEALTH", &gCvars.ESPHEALTH);
-		msEsp.AddElement(ONOFF, 0, L"IGNORE INFECTED", &gCvars.INGOREINFECTED);
+		msEsp.AddElement(ONOFF, 0, L"IGNORE INFECTED", &gCvars.INGOREINFECTEDVISUALS);
 		msEsp.RestartSection();
 		msEsp.AddElement(ONOFF, iRowTwo, L"        CHAMS", &gCvars.CHAMS);
 		msEsp.AddElement(ONOFF, iRowTwo, L"        CHAM XQZ", &gCvars.CHAMSXQZ);

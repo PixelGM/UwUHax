@@ -1,3 +1,3 @@
-# UwUHax
+# l4d2hack
 
-Thx B0ruk for the base!
+mega pasta by B0ruK

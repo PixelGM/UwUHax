@@ -13,10 +13,11 @@ void CConfig::Setup()
 	SetupValue(gCvars.NOSPREAD, false, ("Config"), ("NOSPREAD"));
 	SetupValue(gCvars.AUTOFIRE, false, ("Config"), ("AUTOFIRE"));
 	SetupValue(gCvars.SILENTAIM, false, ("Config"), ("SILENTAIM"));
+	SetupValue(gCvars.IGNOREBITCH, false, ("Config"), ("IGNOREBITCH"));
 	SetupValue(gCvars.ESPBOX, false, ("Config"), ("ESPBOX"));
 	SetupValue(gCvars.ESPNAME, false, ("Config"), ("ESPNAME"));
 	SetupValue(gCvars.ESPHEALTH, false, ("Config"), ("ESPHEALTH"));
-	SetupValue(gCvars.INGOREINFECTED, false, ("Config"), ("INGOREINFECTED"));
+	SetupValue(gCvars.INGOREINFECTEDVISUALS, false, ("Config"), ("INGOREINFECTEDVISUALS"));
 	SetupValue(gCvars.CHAMS, false, ("Config"), ("CHAMS"));
 	SetupValue(gCvars.CHAMSXQZ, false, ("Config"), ("CHAMSXQZ"));
 	SetupValue(gCvars.CHAMHAND, false, ("Config"), ("CHAMHAND"));

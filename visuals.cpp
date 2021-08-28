@@ -338,7 +338,7 @@ void ESP::DrawPlayer(CBaseEntity * pEntity, CBaseEntity * local)
 			{
 				if (gCvars.ESPNAME)
 				{
-					if (gCvars.INGOREINFECTED)
+					if (gCvars.INGOREINFECTEDVISUALS)
 						return;
 
 					Draw::DrawStringA(Fonts::m_MenuFont, true, middle, rect.top - 15, 255, 255, 255, 255, "zombie");

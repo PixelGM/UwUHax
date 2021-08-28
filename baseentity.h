@@ -285,9 +285,13 @@ struct CBaseEntity
 			if (m_Sequence > 70)
 				return false;
 		}
-
+		
+		//Return false to ingnore aimbot on Bitch xd
 		if (m_Group == GROUP_BITCH)
 		{
+			if (gCvars.IGNOREBITCH)
+				return false;
+
 			if (m_SolidFlags & 4)
 				return false;
 
@@ -357,7 +361,7 @@ struct CBaseEntity
 		else if (m_Group == GROUP_INFECTED)
 		{
 			//Return false to undraw the infected
-			if (gCvars.INGOREINFECTED)
+			if (gCvars.INGOREINFECTEDVISUALS)
 				return false;
 
 			if (m_SolidFlags & 4)

@@ -48,10 +48,11 @@ public:
 	float NOSPREAD;
 	float AUTOFIRE;
 	float SILENTAIM;
+	float IGNOREBITCH;
 	float ESPBOX;
 	float ESPNAME;
 	float ESPHEALTH;
-	float INGOREINFECTED;
+	float INGOREINFECTEDVISUALS;
 	float CHAMS;
 	float CHAMSXQZ;
 	float CHAMHAND;
