@@ -292,7 +292,7 @@ void ESP::draw(CBaseEntity* pLocal)
 			continue;
 
 		//Draw Player Box ESP
-		if (pEntity->GetGroup() && pEntity->ValidEntityIgnoreInfected())
+		if (pEntity->GetGroup() && pEntity->ValidEntityVisuals())
 		{
 			DrawPlayer(pEntity, pLocal);
 		}

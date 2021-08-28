@@ -313,7 +313,7 @@ struct CBaseEntity
 		return true;
 	}
 
-	const bool ValidEntityIgnoreInfected()
+	const bool ValidEntityVisuals()
 	{
 		if (this->IsDormant())
 			return false;
@@ -356,6 +356,7 @@ struct CBaseEntity
 
 		else if (m_Group == GROUP_INFECTED)
 		{
+			//Return false to undraw the infected
 			if (gCvars.INGOREINFECTED)
 				return false;
 
